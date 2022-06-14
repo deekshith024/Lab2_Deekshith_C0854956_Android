@@ -10,8 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lab2_Deekshith_C0854956_Android">
         <activity
+            android:name=".ProductActivity"
+            android:exported="false"
+            android:label="Product List"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:label="Product List">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
