@@ -9,7 +9,12 @@ import android.view.View;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
+
+    DbHelper myDB;
+    ArrayList<String> product_id, product_name, product_description, product_price;
 
     RecyclerView recyclerView;
     FloatingActionButton add_button;
@@ -30,6 +35,14 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+        myDB = new DbHelper (MainActivity.this);
+        product_id = new ArrayList<>();
+        product_name = new ArrayList<>();
+        product_description = new ArrayList<>();
+        product_price =  new ArrayList<>();
+
+
 
 
 
