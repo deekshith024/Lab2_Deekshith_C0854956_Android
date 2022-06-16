@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Lab2_Deekshith_C0854956_Android</string>
+    <string name="update_btn_txt">update</string>
+    <string name="delete_btn_txt">delete</string>
 </resources>

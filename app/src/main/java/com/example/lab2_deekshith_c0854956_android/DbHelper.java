@@ -71,7 +71,7 @@ public class DbHelper extends SQLiteOpenHelper {
 
     Cursor readAllData() {
 
-        String query = "SELECT  *  FROM " + TABLE_NAME + " LIMIT 1 ";
+        String query = "SELECT  *  FROM " + TABLE_NAME ;
         SQLiteDatabase db = this.getReadableDatabase();
 
 
