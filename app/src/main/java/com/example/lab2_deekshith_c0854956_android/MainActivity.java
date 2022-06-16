@@ -44,6 +44,11 @@ public class MainActivity extends AppCompatActivity {
         product_description = new ArrayList<>();
         product_price =  new ArrayList<>();
 
+//
+
+
+        //
+
 
         storeDataInArrays();
         customAdaptor = new CustomAdaptor(MainActivity.this, product_id, product_name, product_description, product_price);
